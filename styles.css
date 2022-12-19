@@ -31,3 +31,21 @@ body, html {
     color: white;
     background: rgba(8, 180, 223, 0.4);
 }
+
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(94, 92, 3);
+    box-shadow: 0 0 1rem rgb(206, 206, 4);
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;  
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: rgb(251, 255, 240);
+}
