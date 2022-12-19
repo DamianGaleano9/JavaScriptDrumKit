@@ -3,3 +3,31 @@ html {
     background: url("../JavaScriptDrumKit/images/me.jpeg");
     background-size: cover;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid rgba(0, 0, 0, 0.16);
+    border-radius: .5rem;
+    margin: 1rem;
+    height: 30px;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    transition: all 0.7s ease;
+    width: 9rem;
+    text-align: center;
+    color: white;
+    background: rgba(8, 180, 223, 0.4);
+}
